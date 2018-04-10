@@ -10,12 +10,12 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 function addElementToEndOfArray(array, element) {
   return [...array, element]
 }
-function destructivelyAddElementToEndOfArray(array, element) {
+function destructivelyAddElementToEndOfArray(array, index) {
   array.push(element)
   return array
 }
 function accessElementInArray(array, element){
-  console.log(array[element]);
+  console.log(array[index]);
 }
 function destructivelyRemoveElementFromBeginningOfArray(array, element){
   array.shift(element)
